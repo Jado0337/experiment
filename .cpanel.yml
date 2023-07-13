@@ -2,7 +2,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/Jado0337/public_html/
+    - export DEPLOYPATH=/home/recycleproco/public_html/testing.recyclepro.recyclepro.co.uk
     - /bin/cp -R .vscode $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
